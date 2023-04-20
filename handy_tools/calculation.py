@@ -1,4 +1,5 @@
 import pandera
+
 def sum_lists(*args):
     """對 list 做元素間加總
 
@@ -53,4 +54,5 @@ def zscore(arr, window):
     return (x-u)/o
 
 def sign(x):
+    import pandera
     return x and (1, -1)[x<0]
